@@ -167,6 +167,10 @@ a:active {
   letter-spacing: 0;
 }
 
+.info__employ {
+  display: block;
+}
+
 .info__content--hobby .info__text {
   margin-bottom: 0;
 }
