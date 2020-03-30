@@ -151,6 +151,7 @@ a:active {
 }
 
 .info__title--small {
+  max-width: 288px;
   padding-left: 45px;
   box-sizing: border-box;
 
