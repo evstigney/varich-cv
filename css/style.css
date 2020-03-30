@@ -172,6 +172,10 @@ a:active {
   margin-bottom: 0;
 }
 
+.info__about-item {
+  margin-left: 77px;
+}
+
 .page__header {
   margin-bottom: 46px;
 }
