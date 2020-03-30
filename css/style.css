@@ -167,8 +167,12 @@ a:active {
   letter-spacing: 0;
 }
 
-.info__employ {
+.info__new-string {
   display: block;
+}
+
+.info__content--hobby {
+  margin-bottom: 56px;
 }
 
 .info__content--hobby .info__text {
@@ -184,7 +188,7 @@ a:active {
 }
 
 .page__footer {
-  margin-left: 34px;
+  margin-left: 19px;
   padding: 0;
 
   border-top: 2px solid rgba(0, 0, 0, 0.3);
@@ -196,4 +200,21 @@ a:active {
 
   text-align: right;
   opacity: 0.5;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
