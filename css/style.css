@@ -39,13 +39,6 @@ a:active {
   text-decoration: none;
 }
 
-.justication {
-  position: relative;
-  left: -8px;
-
-  display: block;
-}
-
 .header {
   position: relative;
 
@@ -200,6 +193,13 @@ a:active {
 
   text-align: right;
   opacity: 0.5;
+}
+
+.justication {
+  position: relative;
+  left: -8px;
+
+  display: block;
 }
 
 .visually-hidden {
