@@ -242,3 +242,220 @@ body.inner * {
 .img-wrapper--keksobooking figcaption {
   margin-top: 7px;
 }
+
+@media (min-width: 768px) {
+  body.inner > * {
+    width: 768px;
+  }
+
+  .inner-main {
+    margin-bottom: 117px;
+  }
+
+  .inner__footer {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .main-nav__item {
+    min-height: 83px;
+  }
+
+  .main-nav__item a,
+  .main-nav__item:first-of-type a {
+    min-height: 83px;
+    padding-top: 23px;
+  }
+
+  .main-nav__item a {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .header--inner {
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .chapter__header {
+    padding-top: 44px;
+    order: -3;
+  }
+
+  .chapter--design .chapter__header {
+    width: 100%;
+  }
+
+  .chapter__lead {
+    margin-top: 11px;
+    margin-bottom: 33px;
+    order: -2;
+  }
+
+  .chapter--design .chapter__lead {
+    width: 100%;
+  }
+
+  .chapter--design {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 21px;
+  }
+
+  .chapter__img-wrapper {
+    display: flex;
+    flex-wrap: no-wrap;
+  }
+
+  .img-wrapper--mvideo {
+    order: -1;
+  }
+
+  .img-wrapper--me {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 67px;
+  }
+
+  .img-wrapper--me picture {
+    position: relative;
+    top: 23px;
+    left: 2px;
+
+    transform: rotate(7deg);
+  }
+
+  .img-wrapper--me figcaption {
+    width: 182px;
+    padding-top: 51px;
+    padding-left: 57px;
+  }
+
+  .img-wrapper--orphey {
+    margin-bottom: 0;
+  }
+
+  .img-wrapper--orphey figcaption {
+    margin-left: 13px;
+  }
+
+  .img-wrapper--timetable {
+    padding-top: 91px;
+  }
+
+  .chapter--typesetting {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .chapter--typesetting .chapter__lead {
+    margin-top: 16px;
+    margin-bottom: 37px;
+  }
+
+  .chapter--typesetting .chapter__img-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+
+  .chapter__img:last-of-type.img-wrapper--pink {
+    margin-bottom: 41px;
+  }
+
+  .img-wrapper--pink {
+    display: flex;
+    order: -1;
+  }
+
+  .img-wrapper--pink figcaption {
+    position: relative;
+    top: -4px;
+
+    margin-top: 0;
+    margin-left: 11px;
+  }
+
+  .img-wrapper--nerds {
+    position: relative;;
+    top: -8px;
+    left: auto;
+    z-index: 2;
+  }
+
+  .img-wrapper--nerds figcaption {
+    width: 213px;
+    margin-top: 9px;
+  }
+
+  .img-wrapper--barbershop {
+    position: relative;
+    top: auto;
+    right: 17px;
+  }
+
+  .img-wrapper--barbershop figcaption {
+    width: 284px;
+    margin-top: 6px;
+  }
+
+  .img-wrapper--gllacy {
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 22px;
+  }
+
+  .img-wrapper--gllacy picture {
+    position: relative;
+    top: -3px;
+    left: 7px;
+
+    transform: rotate(5deg);
+  }
+
+  .img-wrapper--gllacy figcaption {
+    padding-top: 18px;
+    padding-left: 32px;
+  }
+
+  .chapter--js .chapter__header {
+    margin-bottom: 35px;
+  }
+
+  .chapter--js .img-wrapper {
+    display: flex;
+  }
+
+  .img-wrapper--magick {
+    margin-bottom: 25px;
+  }
+
+  .img-wrapper--magick figcaption {
+    position: relative;
+    top: -3px;
+
+    width: 296px;
+    margin-top: 0;
+    padding-left: 12px;
+  }
+
+  .img-wrapper--keksobooking figcaption {
+    position: relative;
+    top: -4px;
+
+    margin-top: 0;
+    padding-left: 13px;
+  }
+}
