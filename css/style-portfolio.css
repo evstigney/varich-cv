@@ -175,7 +175,7 @@ body.inner * {
   padding: 0;
 }
 
-.chapter__img:last-of-type {
+.img-wrapper--pink {
   margin-bottom: 0;
 }
 
@@ -457,5 +457,250 @@ body.inner * {
 
     margin-top: 0;
     padding-left: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  body.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  body.inner > * {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .inner__header {
+    padding-top: 8px;
+  }
+
+  .inner__main {
+    margin-bottom: 71px;
+  }
+
+  .main-nav__list {
+    position: static;
+
+    display: flex;
+    width: 100%;
+
+    background-color: inherit;
+  }
+
+  .main-nav__item {
+    margin-right: 58px;
+  }
+
+  .main-nav__item a {
+    width: auto;
+
+    font-size: 20px;
+    line-height: 32px;
+    color: #283b79;
+    text-decoration: underline;
+
+    background-color: inherit;
+    box-shadow: none;
+  }
+
+  .main-nav__item a:hover {
+    color: #a74040;
+    text-decoration: underline;
+
+    background-color: inherit;
+  }
+
+  .main-nav__item a:active {
+    text-decoration: none;
+
+    background-color: inherit;
+  }
+
+  .main-nav__item--current a,
+  .main-nav__item--current a:hover,
+  .main-nav__item--current a:active {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .header--inner {
+    margin-bottom: 40px;
+    padding-top: 24px;
+
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .chapter__header {
+    letter-spacing: 3px;
+  }
+
+  .chapter__lead {
+    margin-top: 6px;
+    margin-bottom: 45px;
+  }
+
+  .chapter__img figcaption {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .img-wrapper--mvideo figcaption {
+    top: -3px;
+
+    margin-left: 13px;
+    width: 585px;
+  }
+
+  .chapter--design {
+    position: relative;
+  }
+
+  .img-wrapper--me {
+    position: absolute;
+    top: 362px;
+    right: -23px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-wrapper--me picture {
+    transform: rotate(-9deg);
+  }
+
+  .img-wrapper--me figcaption {
+    align-self: flex-end;
+    width: 258px;
+    margin-top: 26px;
+    margin-right: 32px;
+    padding: 0;
+  }
+
+  .chapter__img-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .img-wrapper--timetable {
+    margin-right: 77px;
+    padding-top: 42px;
+  }
+
+  .img-wrapper--timetable figcaption {
+    margin-top: 7px;
+  }
+
+  .img-wrapper--orphey picture {
+    position: relative;
+    top: -23px;
+  }
+
+  .img-wrapper--orphey figcaption {
+    top: -26px;
+
+    width: 132px;
+  }
+
+  .chapter--typesetting {
+    position: relative;
+    margin-bottom: 7px;
+    padding-bottom: 37px;
+  }
+
+  .chapter--typesetting .chapter__header {
+    width: 100%;
+    padding-top: 34px;
+  }
+
+  .chapter--typesetting .chapter__lead {
+    margin-top: 7px;
+    margin-bottom: 28px;
+  }
+
+  .img-wrapper--pink figcaption {
+    width: 363px;
+    margin-left: 18px;
+  }
+
+  .img-wrapper--barbershop {
+    position: absolute;
+    top: 263px;
+    right: -6px;
+  }
+
+  .img-wrapper--barbershop figcaption {
+    width: 313px;
+  }
+
+  .img-wrapper--gllacy {
+    flex-direction: column;
+    margin-left: 8px;
+  }
+
+  .img-wrapper--gllacy picture {
+    transform: none;
+  }
+
+  .img-wrapper--gllacy figcaption {
+    margin-top: 0;
+    padding-top: 3px;
+    padding-left: 8px;
+  }
+
+  .img-wrapper--nerds {
+    position: relative;
+    top: -18px;
+    left: 6px;
+  }
+
+  .img-wrapper--nerds img {
+    transform: rotate(16deg) translate(28px, 4px);
+  }
+
+  .img-wrapper--nerds figcaption {
+    width: 272px;
+    margin-top: 0;
+  }
+
+  .chapter--js {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .chapter--js .chapter__header {
+    width: 100%;
+    margin-bottom: 31px;
+  }
+
+  .chapter--js .img-wrapper {
+    flex-direction: column;
+  }
+
+  .img-wrapper--magick figcaption {
+    width: 316px;
+    padding-top: 11px;
+    padding-left: 0;
+  }
+
+  .img-wrapper--keksobooking {
+    position: relative;
+    left: 34px;
+    padding-top: 41px;
+  }
+
+  .img-wrapper--keksobooking figcaption {
+    width: 354px;
+    padding-top: 12px;
+    padding-left: 0;
   }
 }

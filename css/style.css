@@ -25,11 +25,6 @@ a {
   text-decoration: underline;
 }
 
-a:visited {
-  color: #79285b;
-  text-decoration: underline;
-}
-
 a:hover {
   color: #a74040;
   text-decoration: underline;
