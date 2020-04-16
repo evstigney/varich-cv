@@ -1,0 +1,244 @@
+body.inner {
+  width: 100vw;
+  padding-left: 0;
+}
+
+body.inner > * {
+  width: 320px;
+}
+
+body.inner * {
+  box-sizing: border-box;
+}
+
+.inner__header {
+  margin: 0;
+  padding: 0;
+}
+
+.inner__main {
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.inner__footer {
+  padding-left: 16px;
+
+  letter-spacing: 1px;
+}
+
+.inner__main-header {
+  margin: 0;
+  padding: 0;
+}
+
+.inner__footer {
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.main-nav__list {
+  position: relative;
+  left: calc(50% - 50vw);
+
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+  background-color: #bdc9f1;
+  list-style: none;
+}
+
+.main-nav__item {
+  min-height: 45px;
+
+  border-bottom: none;
+}
+
+.main-nav__item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 45px;
+  padding-top: 4px;
+
+  color: black;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: #bdc9f1;
+  box-shadow: inset 0 -4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-nav__item:first-of-type a {
+  min-height: 49px;
+  padding-top: 8px;
+}
+
+.main-nav__item a:hover {
+  text-decoration: underline;
+
+  background-color: #5872c6;
+}
+
+.main-nav__item a:active {
+  color: white;
+  text-decoration: none;
+
+  background-color: #283b79;
+}
+
+.main-nav__item--current a,
+.main-nav__item--current a:hover,
+.main-nav__item--current a:active {
+  color: #000000;
+  text-decoration: none;
+
+  background-color: #ffffff;
+}
+
+.header--inner {
+  position: static;
+
+  display: block;
+  width: 253px;
+  padding-top: 19px;
+
+  color: #232223;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.page-content {
+  color: #232223;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.page-content__part {
+  margin-bottom: 15px;
+}
+
+.chapter__header {
+  margin: 0;
+  padding-top: 47px;
+
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.chapter--design .chapter__header {
+  width: 200px;
+}
+
+.chapter--typesetting .chapter__header {
+  padding-top: 41px;
+}
+
+.chapter--js .chapter__header {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.chapter__lead {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-right: 17px;
+
+  letter-spacing: 1px;
+}
+
+.chapter--typesetting .chapter__lead {
+  margin-bottom: 46px;
+}
+
+.chapter__img {
+  margin: 0;
+  margin-bottom: 26px;
+  padding: 0;
+}
+
+.chapter__img:last-of-type {
+  margin-bottom: 0;
+}
+
+.chapter__img img {
+  display: block;
+}
+
+.chapter__img figcaption {
+  margin: 0;
+  margin-top: 4px;
+  padding: 0;
+
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+
+.img-wrapper--orphey {
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.img-wrapper--mvideo {
+  display: flex;
+}
+
+.img-wrapper--magick {
+  margin-bottom: 28px;
+}
+
+.img-wrapper--mvideo figcaption {
+  position: relative;
+  top: -4px;
+
+  margin: 0;
+  margin-left: 7px;
+
+  line-height: 15px;
+}
+
+.img-wrapper--orphey figcaption {
+  position: relative;
+  top: -3px;
+
+  margin: 0;
+  margin-left: 9px;
+}
+
+.img-wrapper--nerds figcaption {
+  width: 245px;
+  margin-top: 7px;
+}
+
+.img-wrapper--gllacy figcaption {
+  margin-top: 6px;
+}
+
+.img-wrapper--pink figcaption {
+  margin-top: 6px;
+  width: 100%;
+}
+
+.img-wrapper--keksobooking figcaption {
+  margin-top: 7px;
+}
