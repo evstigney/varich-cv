@@ -86,6 +86,12 @@ a:active {
   text-align: right;
 }
 
+.header__info{
+  width: 100%;
+  margin-top: 31px;
+  margin-bottom: 0;
+}
+
 .contacts__cell {
   min-width: 89px;
   padding-bottom: 29px;
@@ -173,7 +179,7 @@ a:active {
 }
 
 .page__header {
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .page__main {
