@@ -553,6 +553,10 @@ body.inner * {
     line-height: 17px;
   }
 
+  .img-wrapper--mvideo {
+    margin-bottom: 0;
+  }
+
   .img-wrapper--mvideo figcaption {
     top: -3px;
 
