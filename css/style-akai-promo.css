@@ -6,4 +6,5 @@ body {
 
 .promo-img {
   width: 100%;
+  display: block;
 }
