@@ -315,7 +315,7 @@ body.inner * {
 
   .chapter__img-wrapper {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
   }
 
   .img-wrapper--mvideo {
